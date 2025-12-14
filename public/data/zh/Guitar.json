@@ -1,0 +1,28 @@
+{
+    "id": "吉他",
+    "group": 3,
+    "description": "我的主乐器。连接灵魂与世界的桥梁。",
+    "children": [
+        {
+            "id": "木吉他",
+            "group": 4,
+            "children": [
+                {
+                    "id": "指弹",
+                    "group": 5
+                }
+            ]
+        },
+        {
+            "id": "电吉他",
+            "group": 4
+        }
+    ],
+    "relations": [
+        {
+            "targetId": "Yorushika",
+            "type": "dashed",
+            "label": "翻弹"
+        }
+    ]
+}

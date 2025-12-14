@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MamboJiang's Universe (成分宇宙)
 
-## Getting Started
+A personal interactive knowledge graph visualized as a 2D force-directed universe. Built with Next.js and `react-force-graph`.
 
-First, run the development server:
+![Universe Preview](https://github.com/mambojiang/personal-component/assets/placeholder.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌌 Features
+
+- **Interactive 2D Graph**: Physics-based visualization using `react-force-graph-2d`.
+- **Literary Aesthetics**: Designed with a Zen Old Mincho serif font and a curated Japanese Traditional Colors palette (20 colors).
+- **Bilingual Support**: Toggle between **English** and **Chinese** instantly.
+- **Deep Zoom & LOD**: 
+  - Dynamic Level of Detail (LOD) renders distant nodes as dots and close nodes as text.
+  - Supports deep zoom (up to 5x) for exploring nested sub-universes.
+- **Recursive Data Architecture**: 
+  - Data is split into multiple JSON files (e.g., `Guitar.json` is loaded on-demand).
+  - Scalable for large datasets.
+- **Rich Interactions**:
+  - Click to focus and open details sidebar.
+  - "Drill-down" into sub-universes (underlined nodes).
+  - Breadcrumb navigation.
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js 14+](https://nextjs.org/) (App Router)
+- **Graph Engine**: [react-force-graph-2d](https://github.com/vasturiano/react-force-graph)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Fonts**: Zen Old Mincho (via `next/font`)
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/mambojiang/personal-component.git
+    cd personal-component
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open the app**:
+    Visit [http://localhost:3000](http://localhost:3000).
+
+## 📂 Data Structure
+
+The universe data is located in `public/data/`.
+
+- `public/data/en/`: English JSON files.
+- `public/data/zh/`: Chinese JSON files.
+
+### Adding New Nodes
+To add a new node, edit `universe.json` or create a new JSON file (e.g., `Code.json`) and link it in the parent:
+
+```json
+{
+  "id": "My Node",
+  "group": 3,
+  "description": "Description here...",
+  "relations": [
+        {
+            "targetId": "Target",
+            "type": "dashed",
+            "label": "Label in the line"
+        }
+    ]
+  "children": [
+      {
+         "id": "SubFile.json", 
+         "group": 4 
+      } 
+  ]
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT

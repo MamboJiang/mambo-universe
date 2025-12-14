@@ -1,0 +1,28 @@
+{
+    "id": "Guitar",
+    "group": 3,
+    "description": "My primary instrument. A bridge between my soul and the world.",
+    "children": [
+        {
+            "id": "Acoustic",
+            "group": 4,
+            "children": [
+                {
+                    "id": "Fingerstyle",
+                    "group": 5
+                }
+            ]
+        },
+        {
+            "id": "Electric",
+            "group": 4
+        }
+    ],
+    "relations": [
+        {
+            "targetId": "Yorushika",
+            "type": "dashed",
+            "label": "Cover"
+        }
+    ]
+}

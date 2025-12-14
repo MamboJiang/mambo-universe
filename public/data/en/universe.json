@@ -1,0 +1,119 @@
+{
+  "id": "MamboJiang",
+  "group": 0,
+  "description": "The center of my chaos. Everything starts here.",
+  "children": [
+    {
+      "id": "Music",
+      "group": 1,
+      "children": [
+        {
+          "id": "J-Pop",
+          "group": 2,
+          "children": [
+            {
+              "id": "Yorushika",
+              "group": 3,
+              "description": "A Japanese rock duo. Their lyrics hit different."
+            },
+            {
+              "id": "Ado",
+              "group": 3
+            },
+            {
+              "id": "ZUTOMAYO",
+              "group": 3
+            }
+          ]
+        },
+        {
+          "id": "Instruments",
+          "group": 2,
+          "children": [
+            {
+              "id": "/en/Guitar.json",
+              "group": 3
+            },
+            {
+              "id": "Keyboard",
+              "group": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Tech",
+      "group": 1,
+      "description": "My digital playground. Where logic meets creativity.",
+      "children": [
+        {
+          "id": "Frontend",
+          "group": 2,
+          "children": [
+            {
+              "id": "React",
+              "group": 3,
+              "children": [
+                {
+                  "id": "Next.js",
+                  "group": 4
+                },
+                {
+                  "id": "R3F",
+                  "group": 4
+                }
+              ]
+            },
+            {
+              "id": "Vue",
+              "group": 3
+            }
+          ]
+        },
+        {
+          "id": "Creative Coding",
+          "group": 2,
+          "children": [
+            {
+              "id": "Three.js",
+              "group": 3
+            },
+            {
+              "id": "WebGL",
+              "group": 3
+            },
+            {
+              "id": "GLSL",
+              "group": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Life",
+      "group": 1,
+      "children": [
+        {
+          "id": "Photography",
+          "group": 2,
+          "children": [
+            {
+              "id": "Sony A7C",
+              "group": 3
+            },
+            {
+              "id": "Film",
+              "group": 3
+            }
+          ]
+        },
+        {
+          "id": "Travel",
+          "group": 2
+        }
+      ]
+    }
+  ]
+}
