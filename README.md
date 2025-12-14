@@ -2,8 +2,6 @@
 
 A personal interactive knowledge graph visualized as a 2D force-directed universe. Built with Next.js and `react-force-graph`.
 
-![Universe Preview](https://github.com/mambojiang/personal-component/assets/placeholder.png)
-
 ## 🛠 Tech Stack
 
 - **Framework**: [Next.js 14+](https://nextjs.org/) (App Router)
