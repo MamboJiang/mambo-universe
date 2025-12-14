@@ -15,6 +15,11 @@ const UniverseGraph = dynamic(() => import('@/components/UniverseGraph'), {
   loading: () => <div className="w-full h-full flex items-center justify-center text-white/20 animate-pulse">Initializing Universe...</div>,
 });
 
+export const metadata = {
+  title: 'Mambo Universe',
+  description: 'A personal interactive knowledge graph.',
+};
+
 export default function Home() {
   return (
     <main className={`w-screen h-screen bg-[#050510] overflow-hidden ${zenOldMincho.className}`}>

@@ -1,4 +1,4 @@
-# MamboJiang's Universe (成分宇宙)
+# Mambo Universe (成分宇宙)
 
 A personal interactive knowledge graph visualized as a 2D force-directed universe. Built with Next.js and `react-force-graph`.
 
