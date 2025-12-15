@@ -294,7 +294,7 @@ export default function UniverseGraph() {
                 <div className="absolute top-24 left-8 max-w-sm bg-[#0A0A15]/95 border border-white/20 p-6 rounded-sm shadow-2xl z-50 backdrop-blur-md">
                     <div className="flex justify-between items-start mb-4">
                         <h3 className="text-xl font-light text-[#FFE082]">
-                            {lang === 'en' ? "Welcome to Mambo Universe" : "欢迎来到 Mambo 宇宙"}
+                            {lang === 'en' ? "Welcome to MamboJiang's Universe" : "欢迎来到 MamboJiang 的宇宙"}
                         </h3>
                         <button onClick={() => setShowWelcome(false)} className="text-white/50 hover:text-white"><X size={16} /></button>
                     </div>
