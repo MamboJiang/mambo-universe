@@ -4,43 +4,8 @@
   "description": "The center of my chaos. Everything starts here.",
   "children": [
     {
-      "id": "Music",
-      "group": 1,
-      "children": [
-        {
-          "id": "J-Pop",
-          "group": 2,
-          "children": [
-            {
-              "id": "Yorushika",
-              "group": 3,
-              "description": "A Japanese rock duo. Their lyrics hit different."
-            },
-            {
-              "id": "Ado",
-              "group": 3
-            },
-            {
-              "id": "ZUTOMAYO",
-              "group": 3
-            }
-          ]
-        },
-        {
-          "id": "Instruments",
-          "group": 2,
-          "children": [
-            {
-              "id": "/en/Guitar.json",
-              "group": 3
-            },
-            {
-              "id": "Keyboard",
-              "group": 3
-            }
-          ]
-        }
-      ]
+      "id": "/en/Music.json",
+      "group": 1
     },
     {
       "id": "Tech",

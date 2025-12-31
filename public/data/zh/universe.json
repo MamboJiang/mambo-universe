@@ -4,43 +4,8 @@
     "description": "混乱的中心。一切以此为始。",
     "children": [
         {
-            "id": "音乐",
-            "group": 1,
-            "children": [
-                {
-                    "id": "J-Pop",
-                    "group": 2,
-                    "children": [
-                        {
-                            "id": "Yorushika",
-                            "group": 3,
-                            "description": "日本摇滚二人组。歌词直击灵魂。"
-                        },
-                        {
-                            "id": "Ado",
-                            "group": 3
-                        },
-                        {
-                            "id": "ZUTOMAYO",
-                            "group": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "乐器",
-                    "group": 2,
-                    "children": [
-                        {
-                            "id": "/zh/Guitar.json",
-                            "group": 3
-                        },
-                        {
-                            "id": "键盘",
-                            "group": 3
-                        }
-                    ]
-                }
-            ]
+            "id": "/zh/Music.json",
+            "group": 1
         },
         {
             "id": "技术",

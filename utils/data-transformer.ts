@@ -4,6 +4,7 @@ export interface UniverseNode {
   description?: string; // Content for sidebar
   children?: UniverseNode[];
   relations?: Relation[]; // Non-tree links
+  isRecent?: boolean; // Highlight recent items
 }
 
 export interface Relation {
@@ -19,6 +20,7 @@ export interface GraphNode extends UniverseNode {
   collapsed: boolean;
   childCount: number;
   level: number; // Added level for LOD
+  isRecent?: boolean;
 }
 
 export interface GraphLink {
@@ -142,7 +144,8 @@ export function transformTreeToGraph(data: UniverseNode, collapsedIds: Set<strin
       childCount: node.children?.length || 0,
       collapsed: collapsedIds.has(node.id),
       description: node.description,
-      level: level // Add level for LOD
+      level: level, // Add level for LOD
+      isRecent: node.isRecent
     };
     nodes.push(graphNode);
 

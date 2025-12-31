@@ -1,0 +1,17 @@
+{
+    "id": "Yorushika",
+    "group": 4,
+    "description": "A Japanese rock duo. Their lyrics hit different.",
+    "children": [
+        {
+            "id": "n-buna",
+            "group": 5,
+            "description": "Composer & Guitarist. The brain."
+        },
+        {
+            "id": "suis",
+            "group": 5,
+            "description": "Vocalist. The voice."
+        }
+    ]
+}

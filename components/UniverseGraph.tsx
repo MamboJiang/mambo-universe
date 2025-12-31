@@ -146,6 +146,36 @@ export default function UniverseGraph() {
             ctx.lineWidth = 0.5 / globalScale;
             ctx.stroke();
         }
+
+        // Recent Indicator (Background Pill)
+        if (node.isRecent) {
+            const width = ctx.measureText(node.id).width;
+            const height = finalFontSize;
+            const padding = 1.5; // Reduced padding for tighter fit
+
+            ctx.save();
+            ctx.fillStyle = "#FFE082"; // Gold
+            ctx.globalAlpha = 0.2; // Low opacity background
+
+            // Rounded Rectangle (Pill)
+            ctx.beginPath();
+            ctx.roundRect(
+                node.x - width / 2 - padding,
+                node.y - height / 2 - padding / 2, // Fine tuned vertical visual center
+                width + padding * 2,
+                height + padding,
+                4 // Radius
+            );
+            ctx.fill();
+
+            // Optional: Thin Border
+            ctx.strokeStyle = "#FFE082";
+            ctx.lineWidth = 0.5 / globalScale;
+            ctx.globalAlpha = 0.6;
+            ctx.stroke();
+
+            ctx.restore();
+        }
     }, [hoverNode]);
 
     // Hit Area Expansion
@@ -371,6 +401,18 @@ export default function UniverseGraph() {
                     className="text-white/50 hover:text-white transition"
                 >
                     <Github size={16} />
+                </a>
+
+                <div className="h-3 w-[1px] bg-white/20"></div>
+
+                {/* Portfolio Link */}
+                <a
+                    href="https://mambojiang.site"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white/50 hover:text-white transition text-xs tracking-widest uppercase font-sans"
+                >
+                    Portfolio
                 </a>
             </div>
 

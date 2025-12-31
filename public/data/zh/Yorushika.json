@@ -1,0 +1,17 @@
+{
+    "id": "Yorushika",
+    "group": 4,
+    "description": "日本摇滚二人组。歌词直击灵魂。",
+    "children": [
+        {
+            "id": "n-buna",
+            "group": 5,
+            "description": "作曲 & 吉他。大脑。"
+        },
+        {
+            "id": "suis",
+            "group": 5,
+            "description": "主唱。灵魂。"
+        }
+    ]
+}

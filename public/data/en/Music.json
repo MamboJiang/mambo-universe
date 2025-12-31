@@ -1,0 +1,213 @@
+{
+    "id": "Music",
+    "group": 1,
+    "children": [
+        {
+            "id": "Japan",
+            "group": 2,
+            "children": [
+                {
+                    "id": "Virtual Singers",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "VOCALOID",
+                            "group": 4,
+                            "children": [
+                                {
+                                    "id": "OrangeStar",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "Harumaki Gohan",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "sasakure.UK",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "Haruka Ryo",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "Masarada",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "MIMI",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "40mP",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "toa",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "wowaka",
+                                    "group": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Kamitsubaki",
+                            "group": 4,
+                            "children": [
+                                {
+                                    "id": "KAF",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "RIM",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "KAFU",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "Guiano",
+                                    "group": 4,
+                                    "relations": [
+                                        {
+                                            "targetId": "J-Pop",
+                                            "type": "solid",
+                                            "label": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Sekai",
+                                    "group": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "J-Pop",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "/en/Yorushika.json",
+                            "group": 4,
+                            "isRecent": true
+                        },
+                        {
+                            "id": "Ado",
+                            "group": 4
+                        },
+                        {
+                            "id": "ZUTOMAYO",
+                            "group": 4
+                        },
+                        {
+                            "id": "Yuika",
+                            "group": 4
+                        },
+                        {
+                            "id": "Aimer",
+                            "group": 4
+                        },
+                        {
+                            "id": "Atarayo",
+                            "group": 4
+                        },
+                        {
+                            "id": "TUYU",
+                            "group": 4
+                        },
+                        {
+                            "id": "Sakanaction",
+                            "group": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "Other",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "nanatzukaze",
+                            "group": 4
+                        },
+                        {
+                            "id": "sana",
+                            "group": 4
+                        },
+                        {
+                            "id": "nameless",
+                            "group": 4
+                        },
+                        {
+                            "id": "Kano",
+                            "group": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Western",
+            "group": 2,
+            "children": [
+                {
+                    "id": "AJR",
+                    "group": 3
+                },
+                {
+                    "id": "Imagine Dragons",
+                    "group": 3
+                },
+                {
+                    "id": "ViceTone",
+                    "group": 3
+                }
+            ]
+        },
+        {
+            "id": "Electronic",
+            "group": 2,
+            "children": [
+                {
+                    "id": "Eliot Hsu",
+                    "group": 3,
+                    "description": "Celtic Style"
+                },
+                {
+                    "id": "ARForest",
+                    "group": 3
+                },
+                {
+                    "id": "a_hisa",
+                    "group": 3
+                },
+                {
+                    "id": "janji",
+                    "group": 3
+                },
+                {
+                    "id": "steerner",
+                    "group": 3
+                }
+            ]
+        },
+        {
+            "id": "Instruments",
+            "group": 2,
+            "children": [
+                {
+                    "id": "/en/Guitar.json",
+                    "group": 3
+                },
+                {
+                    "id": "Keyboard",
+                    "group": 3
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{
+    "id": "音乐",
+    "group": 1,
+    "children": [
+        {
+            "id": "日本",
+            "group": 2,
+            "children": [
+                {
+                    "id": "虚拟歌手",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "VOCALOID",
+                            "group": 4,
+                            "children": [
+                                {
+                                    "id": "OrangeStar",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "春卷饭",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "sasakure.UK",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "辽辽 (Haruka Ryo)",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "玛莎拉达 (マサラダ)",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "MIMI",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "40mP",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "とあ (toa)",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "wowaka",
+                                    "group": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "神椿",
+                            "group": 4,
+                            "children": [
+                                {
+                                    "id": "花谱",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "理芽",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "可不",
+                                    "group": 5
+                                },
+                                {
+                                    "id": "Guiano",
+                                    "group": 4,
+                                    "relations": [
+                                        {
+                                            "targetId": "J-Pop",
+                                            "type": "solid",
+                                            "label": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "世界情绪",
+                                    "group": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "J-Pop",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "/zh/Yorushika.json",
+                            "group": 4,
+                            "isRecent": true
+                        },
+                        {
+                            "id": "Ado",
+                            "group": 4
+                        },
+                        {
+                            "id": "ZUTOMAYO",
+                            "group": 4
+                        },
+                        {
+                            "id": "Yuika",
+                            "group": 4
+                        },
+                        {
+                            "id": "Aimer",
+                            "group": 4
+                        },
+                        {
+                            "id": "Atarayo",
+                            "group": 4
+                        },
+                        {
+                            "id": "TUYU",
+                            "group": 4
+                        },
+                        {
+                            "id": "鱼韵",
+                            "group": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "其他",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "ナナツカぜ",
+                            "group": 4
+                        },
+                        {
+                            "id": "鎖那 (sana)",
+                            "group": 4
+                        },
+                        {
+                            "id": "nameless",
+                            "group": 4
+                        },
+                        {
+                            "id": "鹿乃 (Kano)",
+                            "group": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "欧美",
+            "group": 2,
+            "children": [
+                {
+                    "id": "AJR",
+                    "group": 3
+                },
+                {
+                    "id": "Imagine Dragons",
+                    "group": 3
+                },
+                {
+                    "id": "ViceTone",
+                    "group": 3
+                }
+            ]
+        },
+        {
+            "id": "电子",
+            "group": 2,
+            "children": [
+                {
+                    "id": "Eliot Hsu",
+                    "group": 3,
+                    "description": "凯尔特风格"
+                },
+                {
+                    "id": "ARForest",
+                    "group": 3
+                },
+                {
+                    "id": "a_hisa",
+                    "group": 3
+                },
+                {
+                    "id": "janji",
+                    "group": 3
+                },
+                {
+                    "id": "steerner",
+                    "group": 3
+                }
+            ]
+        },
+        {
+            "id": "乐器",
+            "group": 2,
+            "children": [
+                {
+                    "id": "/zh/Guitar.json",
+                    "group": 3
+                },
+                {
+                    "id": "键盘",
+                    "group": 3
+                }
+            ]
+        }
+    ]
+}
