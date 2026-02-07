@@ -222,6 +222,17 @@
                 {
                     "id": "Keyboard",
                     "group": 3
+                },
+                {
+                    "id": "Synthesizer V2",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "Kasane Teto SV2",
+                            "group": 4,
+                            "description": "Details on my Bilibili."
+                        }
+                    ]
                 }
             ]
         }

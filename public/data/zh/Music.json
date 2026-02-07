@@ -222,6 +222,17 @@
                 {
                     "id": "键盘",
                     "group": 3
+                },
+                {
+                    "id": "Synthesizer V2",
+                    "group": 3,
+                    "children": [
+                        {
+                            "id": "重音テト SV2",
+                            "group": 4,
+                            "description": "深夜激情购入。详情看我B站"
+                        }
+                    ]
                 }
             ]
         }
